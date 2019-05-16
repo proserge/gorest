@@ -1,0 +1,13 @@
+%h1= @restaurant.name
+
+%p= "Cuisine: #{@restaurant.cuisine}"
+
+%p= "Address: #{@restaurant.address}"
+
+%p= "Call us: #{@restaurant.phone}"
+
+- @timetable.each do |time_open, time_close|
+  = period_to_time(time_open)
+  = ' - '
+  = period_to_time(time_close)
+  %br

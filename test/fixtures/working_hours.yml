@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  restaurant: one
+  open_hour: 1
+  close_hour: 1
+
+two:
+  restaurant: two
+  open_hour: 1
+  close_hour: 1
